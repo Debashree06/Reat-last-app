@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .nav-link {
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #536493; 
+      transition: color 0.3s;
+    }
+    
+    .nav-link:hover {
+      color: #c51375; 
+    }
